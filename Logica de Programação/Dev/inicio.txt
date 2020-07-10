@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <locale.h>
+void main() {
+    setlocale(LC_ALL, "Portuguese");
+
+
+biblioteca string.h
+
+gets(v1); substitui scanf
+
+strcmp(v1,v2)==0 Compara se nomes são completamento iguais
+strcasecmp(v1,v2)==0 Compara se nomes são iguais independente de lestra masc ou minus
+strcpy(v1,v2); onde será copiado, o que será copiado   outras palavras v1=v2;
+strlen(v1) conta quantas letras tem
+strcat(v1,v2); v1=v1+v2; junta a mensagem das 2 variaveis em uma
