@@ -5,7 +5,7 @@ void main() {
 	char Res;
 	float c, f;
 	setlocale(LC_ALL, "Portuguese");
-	printf("--------------------------------\nCOMVERSOR DE TEMPERATURA \n--------------------------------\nopção (A) de Celsius para Fahrenheit. \nopção (B) de Fahrenheit para Celsius.\nopção:");
+	printf("--------------------------------\nCONVERSOR DE TEMPERATURA \n--------------------------------\nopção (A) de Celsius para Fahrenheit. \nopção (B) de Fahrenheit para Celsius.\nopção:");
 	scanf("%c", &Res);
 	system("cls");
 	if(Res == 'A' || Res == 'a'){
